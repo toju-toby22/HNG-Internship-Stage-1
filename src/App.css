@@ -1,18 +1,99 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 
-body{
+body {
   background-color: #F4F5F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+
+.first-page {
+  background: rgba(255, 255, 255, 1);
+  height: 1158px;
+  width: 1440px;
+  left: -1148px;
+  top: 253px;
+  border-radius: 0px;
+
+}
+
+
+
+
+.share-avatar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  left: 904px;
+  top: -20px;
+  border-radius: 20px;
+
+}
+
+.image {
+  height: 88px;
+  width: 88px;
+  left: 532px;
+  top: 0px;
+  border-radius: 275px;
+
+}
+
+.twitterusername {
+  /* //styleName: Text xl/Bold; */
+  font-family: Text xl/Bold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.picxusername {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.linktree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
 
-.first{
-  background-color: white;
+}
+.link{
+    margin-top: 20px;
+
+}
+.links {
+  height: 76px;
+  width: 1152px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 24px 32px 24px 32px;
+  background: rgba(234, 236, 240, 1);
+  font-family: Text lg/Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(16, 24, 40, 1);
+  text-decoration: none;
 }
